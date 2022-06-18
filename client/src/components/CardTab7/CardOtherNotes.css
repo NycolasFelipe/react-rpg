@@ -1,0 +1,11 @@
+.other-item {
+  display: flex;
+  flex-direction: column;
+  padding: 6px 10px;
+}
+.other-item--title {
+  color: var(--dm-title-color);
+  pointer-events: none;
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+}

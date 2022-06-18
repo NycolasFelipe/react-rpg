@@ -1,0 +1,22 @@
+.personality-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding: 6px 10px 0;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+.personality-item {
+  color: var(--dm-title-color);
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: column;
+}
+.personality-item--title {
+  pointer-events: none;
+  margin-bottom: 5px;
+}
+.textarea {
+  margin-bottom: 18px;
+}

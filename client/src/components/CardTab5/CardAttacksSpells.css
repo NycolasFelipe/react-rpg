@@ -1,0 +1,90 @@
+.card-content {
+  overflow-y: auto;
+}
+.attacks-content {
+  padding: 8px 10px 0;
+  position: relative;
+}
+.attacks-item--title {
+  display: flex;
+  justify-content: space-between;
+  color: var(--dm-title-color);
+  font-size: 0.8rem;
+  box-sizing: border-box;
+  margin-bottom: -4px;
+  pointer-events: none;
+}
+.attack-title--name {
+  width: 40%;
+  margin-left: 2px;
+  margin-bottom: 3px;
+}
+.attack-title--damage {
+  position: absolute;
+  right: 27%;
+}
+.attack-title--bonus {
+  position: absolute;
+  right: 5%;
+}
+.attacks-items div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+  margin-top: 6px;
+  font-size: 0.8rem;
+}
+.attacks-items div input {
+  font-size: 0.8rem;
+}
+.attack-item--name {
+  width: 35%;
+}
+.attack-item--damage {
+  width: 35%;
+}
+.attack-item--bonus {
+  width: 10%;
+}
+.attacks-item--add {
+  margin-top: 10px;
+  width: 100%;
+}
+.attacks-item--add-margin-top {
+  margin-top: 2px;
+  width: 100%;
+}
+.attacks-item--add:hover,
+.attacks-item--add-margin-top:hover {
+  background: var(--dm-button-green);
+  border: 1px solid var(--dm-button-green);
+}
+.attacks-item--add-disabled {
+  pointer-events: none;
+  background: transparent;
+  border: 1px solid var(--dm-border-color);
+  color: var(--dm-border-color);
+}
+.attacks-item--delete {
+  margin-top: 4px;
+  width: 100%;
+  line-height: 0.6;
+}
+.attacks-item--delete:hover {
+  background: var(--dm-button-red);
+  border: 1px solid var(--dm-button-red);
+}
+.attacks-item--delete-active {
+  line-height: 1;
+  background: var(--dm-border-color);
+  border: 1px solid var(--dm-border-color);
+}
+.attacks-item--delete-active:hover {
+  border: 1px solid var(--dm-button-green);
+  background: var(--dm-button-green);
+}
+.attacks-items--delete-item div:hover input {
+  cursor: pointer;
+  background: var(--dm-button-red);
+}

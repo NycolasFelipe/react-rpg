@@ -1,0 +1,21 @@
+.equipment-item {
+  position: relative;
+  padding: 10px;
+  margin-bottom: -30px;
+}
+.equipment-item-header {
+  display: flex;
+  align-items: center;
+  padding: 3px;
+  position: absolute;
+}
+.equipment-item--icon {
+  width: 25px;
+  margin-right: 5px;
+  filter: invert(50%);
+  pointer-events: none;
+}
+.equipment-item--textarea {
+  margin-top: 30px;
+  width: 95%;
+}
