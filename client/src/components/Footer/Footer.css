@@ -14,18 +14,20 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  color: var(--dm-text-color);
   font-size: 1.2rem;
 }
-.footer-links div {
+.footer-links div a {
   display: flex;
   align-items: center;
   cursor: pointer;
   margin: 0 30px;
   filter: invert(50%);
+  text-decoration: none;
+  color: var(--dm-title-color);
 }
-.footer-links div:hover {
+.footer-links div a:hover {
   filter: invert(0%);
+  color: var(--dm-text-color);
 }
 .link-icon {
   width: 40px;
