@@ -1,13 +1,16 @@
 # RPG Dice Roller and Player Sheet Manager
+## Description
+App made with ReactJS and Node to study CRUD with Node and MySQL.
 
-### Screenshots
-![print1](https://user-images.githubusercontent.com/71052352/172963650-a43aa129-3c9c-427a-a1cc-b8f830df40c2.png)
-![print2](https://user-images.githubusercontent.com/71052352/172963680-4a8196e1-2c3a-401b-b9ca-8a9b6bd29136.png)
-![print3](https://user-images.githubusercontent.com/71052352/172963994-c4b8807a-44da-4ea4-881a-4cf46960a347.png)
-
-
-
-
+## Screenshots
+### Dice Roller
+![dice-roller](https://user-images.githubusercontent.com/71052352/174450947-51613332-7308-462e-929b-08804a4c9929.gif)
+### Add Card
+![add-card](https://user-images.githubusercontent.com/71052352/174450955-46313182-b655-43b3-9913-aaac5fb5dc6a.gif)
+### Delete Card
+![delete-card](https://user-images.githubusercontent.com/71052352/174451787-26bddf5b-fb22-4a17-b7db-6404b71e6974.gif)
+### Card
+![cards](https://user-images.githubusercontent.com/71052352/174451728-e6ba6642-2fde-481d-8dff-b9665630692f.png)
 
 ## Installing
 ### Client
@@ -19,21 +22,34 @@
 1. Change your mySQL database data `server/index.js`
 2. `$ cd server`
 3. `$ npm install`
-4. `$ npm start`![print3](https://user-images.githubusercontent.com/71052352/172963942-7b22caa7-3d3c-4d77-872a-6ed48ed06f17.png)
+4. `$ npm start`
 
 
 ### Functionalities
-+ Create games in the database
-+ Read games in the database
-+ Update games in the database
-+ Delete games in the database
-+ Click card to edit and delete
+App
++ Dark/Light mode stored in local storage
++ Responsible design
+
+Dice Roller
++ Roll multiple dices
++ Rolled dices history
++ Clear rolled dices history
+
+Player Cards/Sheet
++ Create player card in the database
++ Read player card in the database
++ Update player card in the database
++ Delete player card in the database
 
 ### Used Libraries
 
 #### Front-end: 
-`@material-ui`
 `axios`
+`react-scroll`
+`react-textarea-autosize`
+`react-usestateref`
+`uuid`
+
 
 #### Back-end:
 `express`
